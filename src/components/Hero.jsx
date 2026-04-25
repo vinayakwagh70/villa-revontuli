@@ -18,7 +18,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div
+    <div  id="home"
       className="hero"
       style={{
         backgroundImage: `url(${images[index]})`
