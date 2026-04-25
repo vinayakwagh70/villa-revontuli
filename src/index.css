@@ -115,6 +115,21 @@ footer {
   font-size: 14px;
 }
 
+.testimonial {
+  text-align: center;
+  font-style: italic;
+}
+
+.testimonial p {
+  margin-bottom: 15px;
+}
+
+.stars {
+  color: #d4af37;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   .hero h1 {

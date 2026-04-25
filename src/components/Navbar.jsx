@@ -12,6 +12,7 @@ export default function Navbar() {
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#amenities" onClick={() => setMenuOpen(false)}>Amenities</a>
           <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
+          <a href="#testimonials" onClick={() => setMenuOpen(false)}>Reviews</a>
           <a href="#location" onClick={() => setMenuOpen(false)}>Location</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
         </div>

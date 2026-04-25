@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Amenities />
       <Gallery />
       <HouseRules />
+      <Testimonials />
       <Location />
       <Contact />
       <Footer />
