@@ -107,18 +107,19 @@ footer {
   width: 100%;
   background: rgba(0,0,0,0.7);
   backdrop-filter: blur(10px);
-  color: white;
+  z-index: 1000;
+}
+
+/* 👇 Inner container */
+.navbar-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 40px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 15px 40px; /* 👈 increase horizontal space */
-  box-sizing: border-box; /* 👈 important */
-  z-index: 1000;
-
-  max-width: 1200px;
-  margin: auto;
+  color: white;
 }
 
 .logo {
@@ -154,14 +155,15 @@ footer {
   .nav-links {
     position: absolute;
     top: 60px;
-    right: 0;
-    background: black;
+    right: 20px; /* 👈 adjust because of padding */
 
+    background: black;
     flex-direction: column;
     width: 220px;
     padding: 20px;
 
     display: none;
+    z-index: 1001; /* 👈 ensure above navbar */
   }
 
   .nav-links.open {
@@ -169,8 +171,9 @@ footer {
   }
 
   .hamburger {
-    display: block; /* 👈 SHOW it */
+    display: block;
     font-size: 24px;
     cursor: pointer;
+    color: white;
   }
 }

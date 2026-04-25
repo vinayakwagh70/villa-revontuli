@@ -5,21 +5,24 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Villa Revontuli</div>
+      <div className="navbar-inner">
+        <div className="logo">Villa Revontuli</div>
 
-      <div className={`nav-links ${menuOpen ? "open" : ""}`}>
-        <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
-        <a href="#amenities" onClick={() => setMenuOpen(false)}>Amenities</a>
-        <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
-        <a href="#location" onClick={() => setMenuOpen(false)}>Location</a>
-        <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
-      </div>
+        <div className={`nav-links ${menuOpen ? "open" : ""}`}>
+          <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#amenities" onClick={() => setMenuOpen(false)}>Amenities</a>
+          <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
+          <a href="#location" onClick={() => setMenuOpen(false)}>Location</a>
+          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+        </div>
 
-      <div
-        className="hamburger"
-        onClick={() => setMenuOpen(!menuOpen)}
-      >
-        ☰
+        {/* 👇 IMPORTANT: click handler */}
+        <div
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </div>
       </div>
     </nav>
   );
