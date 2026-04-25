@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
+import SEOContent from "./components/SEOContent";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Testimonials />
       <Location />
       <Contact />
+      <SEOContent />
       <Footer />
     </>
   );
