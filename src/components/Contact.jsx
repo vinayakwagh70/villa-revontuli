@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" style={{ textAlign: "center" }}>
+    <section id="contact">
       <h2>Book Your Stay</h2>
       <p>Direct booking for best price. No platform fees.</p>
 
