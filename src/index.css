@@ -116,6 +116,9 @@ footer {
   padding: 15px 40px; /* 👈 increase horizontal space */
   box-sizing: border-box; /* 👈 important */
   z-index: 1000;
+
+  max-width: 1200px;
+  margin: auto;
 }
 
 .logo {
