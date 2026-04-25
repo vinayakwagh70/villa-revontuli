@@ -3,6 +3,7 @@ import Amenities from "./components/Amenities";
 import HouseRules from "./components/HouseRules";
 import Location from "./components/Location";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HouseRules />
       <Location />
       <Contact />
+      <Footer />
     </>
   );
 }

@@ -1,10 +1,8 @@
 export default function Contact() {
   return (
     <section style={{ textAlign: "center" }}>
-      <h2>Contact</h2>
-
-      <p>📞 Business Account: Villa Revontuli</p>
-      <p>Available: 8 AM – 10 PM</p>
+      <h2>Book Your Stay</h2>
+      <p>Direct booking for best price. No platform fees.</p>
 
       <a
         className="button"
@@ -13,6 +11,10 @@ export default function Contact() {
       >
         Chat on WhatsApp
       </a>
+
+      <p style={{ marginTop: "15px" }}>
+        Business Account: Villa Revontuli
+      </p>
     </section>
   );
 }
