@@ -1,6 +1,6 @@
 export default function Amenities() {
   return (
-    <section>
+    <section id="amenities">
       <h2>Comfort & Amenities</h2>
       <div className="grid grid-3">
         <div className="card">2 Bedrooms with attached bathrooms</div>

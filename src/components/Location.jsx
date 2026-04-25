@@ -1,6 +1,6 @@
 export default function Location() {
   return (
-    <section>
+    <section id="location">
       <h2>Location</h2>
       <p style={{ textAlign: "center" }}>
         Bhose Village, Mahabaleshwar

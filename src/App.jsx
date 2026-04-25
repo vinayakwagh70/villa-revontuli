@@ -5,10 +5,12 @@ import Location from "./components/Location";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Hero />
       <Amenities />
       <Gallery />
