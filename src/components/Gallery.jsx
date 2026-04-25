@@ -3,9 +3,9 @@ export default function Gallery() {
     <section>
       <h2>Gallery</h2>
       <div className="grid grid-3">
-        <img src="/gallery1.jpg" alt="Villa interior" />
-        <img src="/gallery2.jpg" alt="Bedroom" />
-        <img src="/villa-hero.jpg" alt="Exterior" />
+        <img src={`${import.meta.env.BASE_URL}exterior_1.jpg`} alt="Villa exterior" />
+        <img src={`${import.meta.env.BASE_URL}bedroom.jpg`} alt="Bedroom" />
+        <img src={`${import.meta.env.BASE_URL}exterior.jpg`} alt="Exterior" />
       </div>
     </section>
   );
