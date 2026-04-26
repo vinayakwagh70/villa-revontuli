@@ -4,6 +4,7 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
+    `${import.meta.env.BASE_URL}Home.jpg`,
     `${import.meta.env.BASE_URL}interior_1.jpg`,
     `${import.meta.env.BASE_URL}interior_2.jpg`,
     `${import.meta.env.BASE_URL}interior_3.jpg`,

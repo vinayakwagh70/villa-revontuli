@@ -57,7 +57,7 @@ h2::after {
   position: relative;
   color: white;
   text-align: center;
-  transition: background-image 1s ease-in-out;
+  transition: background-image 2s ease-in-out;
 }
 
 .hero::after {
