@@ -17,6 +17,14 @@ export default function Navbar() {
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
         </div>
 
+        <a
+          href="https://wa.me/917020944283?text=Hi,%20I%20want%20to%20book%20Villa%20Revontuli"
+          className="book-now"
+          target="_blank"
+        >
+          Book Now
+        </a>
+
         {/* 👇 IMPORTANT: click handler */}
         <div
           className="hamburger"

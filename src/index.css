@@ -231,6 +231,10 @@ img:hover {
 /* 📱 MOBILE */
 @media (max-width: 768px) {
 
+  .book-now {
+    display: none;
+  }
+
   .nav-links {
     position: absolute;
     top: 60px;
@@ -259,6 +263,24 @@ img:hover {
   .hero h1 {
     font-size: 30px;
   }
+}
+
+/* 🔘 BOOK NOW BUTTON */
+.book-now {
+  background: var(--accent);
+  color: #111;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.book-now:hover {
+  background: #c8925f;
+  transform: translateY(-1px);
 }
 
 /* 🌙 FOOTER */

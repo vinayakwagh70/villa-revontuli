@@ -30,7 +30,7 @@ export default function Hero() {
 
         <a
           className="button"
-          href="https://wa.me/917020944283"
+          href="https://wa.me/917020944283?text=Hi,%20I%20am%20interested%20in%20booking%20Villa%20Revontuli.%20Please%20share%20details."
           target="_blank"
         >
           Book Your Stay
