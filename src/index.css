@@ -345,3 +345,9 @@ footer {
   max-height: 90%;
   border-radius: 12px;
 }
+
+.map-container {
+  margin: 20px 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
