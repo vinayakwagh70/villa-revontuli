@@ -22,6 +22,13 @@ function App() {
       <Contact />
       <SEOContent />
       <Footer />
+      <a
+        href="https://wa.me/917020944283?text=Hi,%20I%20am%20interested%20in%20booking%20Villa%20Revontuli.%20Please%20share%20details."
+        className="whatsapp-float"
+        target="_blank"
+      >
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="28" />
+      </a>
     </>
   );
 }
