@@ -374,3 +374,16 @@ footer {
   height: 24px;
   object-fit: contain;
 }
+
+/* 📝 FIX LIST ALIGNMENT */
+ul {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
