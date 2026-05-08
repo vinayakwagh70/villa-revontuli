@@ -23,7 +23,7 @@ section {
   padding: 80px 20px;
   max-width: 1100px;
   margin: auto;
-  text-align: center; /* 👈 FIX alignment */
+  text-align: center;
   scroll-margin-top: 80px;
 }
 
@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 h2 {
-  display: inline-block; /* 👈 IMPORTANT */
+  display: inline-block;
 }
 
 h2::after {
@@ -43,7 +43,7 @@ h2::after {
   width: 50px;
   height: 2px;
   background: var(--accent);
-  margin: 10px auto 0; /* 👈 CENTER underline */
+  margin: 10px auto 0;
 }
 
 /* 🏡 HERO */
@@ -129,7 +129,7 @@ h2::after {
 .grid {
   display: grid;
   gap: 20px;
-  text-align: left; /* 👈 important */
+  text-align: left;
 }
 
 .grid-3 {
@@ -172,7 +172,7 @@ img:hover {
   font-size: 18px;
 }
 
-/* 📞 CONTACT (no hacks needed now) */
+/* 📞 CONTACT */
 #contact {
   text-align: center;
 }
@@ -200,6 +200,17 @@ img:hover {
   color: white;
 
   position: relative;
+}
+
+/* 📱 MOBILE OVERLAY: Dims the background and catches clicks to close the menu */
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
 }
 
 .logo {
@@ -235,6 +246,11 @@ img:hover {
     display: none;
   }
 
+  .navbar-inner {
+    position: relative;
+    z-index: 1002; /* Keeps the logo and hamburger above the overlay */
+  }
+
   .nav-links {
     position: absolute;
     top: 60px;
@@ -244,6 +260,8 @@ img:hover {
     flex-direction: column;
     width: 220px;
     padding: 20px;
+    box-shadow: -5px 5px 15px rgba(0,0,0,0.2);
+    border-bottom-left-radius: 12px;
 
     display: none;
     z-index: 1001;
@@ -375,7 +393,6 @@ footer {
   object-fit: contain;
 }
 
-/* 📝 FIX LIST ALIGNMENT */
 ul {
   text-align: left;
   display: inline-block;

@@ -5,6 +5,11 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
+      {/* Mobile Backdrop: Closes menu when clicking anywhere outside the links */}
+      {menuOpen && (
+        <div className="nav-overlay" onClick={() => setMenuOpen(false)} />
+      )}
+
       <div className="navbar-inner">
         <div className="logo">Villa Revontuli</div>
 
@@ -21,6 +26,7 @@ export default function Navbar() {
           href="https://wa.me/917020944283?text=Hi,%20I%20want%20to%20book%20Villa%20Revontuli"
           className="book-now"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Book Now
         </a>
@@ -29,6 +35,9 @@ export default function Navbar() {
         <div
           className="hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
+          role="button"
+          aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
         >
           ☰
         </div>

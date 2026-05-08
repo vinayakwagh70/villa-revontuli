@@ -8,6 +8,7 @@ export default function Contact() {
         className="button"
         href="https://wa.me/917020944283?text=Hi,%20I%20am%20interested%20in%20booking%20Villa%20Revontuli.%20Please%20share%20details."
         target="_blank"
+        rel="noopener noreferrer"
       >
         Chat on WhatsApp
       </a>
@@ -21,16 +22,18 @@ export default function Contact() {
       </p>
 
       <div className="social-links">
-        <a href="https://instagram.com/villarevontuli?igsh=ZGIzdWkxamEyMGQx" target="_blank">
+        <a href="https://instagram.com/villarevontuli?igsh=ZGIzdWkxamEyMGQx" target="_blank" rel="noopener noreferrer">
           <img 
             src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" 
             className="social-icon" 
+            alt="Instagram"
           />
         </a>
-        <a href="https://share.google/PFNfb6CEZKT5DVCs0" target="_blank">
+        <a href="https://share.google/PFNfb6CEZKT5DVCs0" target="_blank" rel="noopener noreferrer">
           <img 
             src="https://cdn-icons-png.flaticon.com/512/281/281764.png" 
             className="social-icon" 
+            alt="Google Business Profile"
           />
         </a>
       </div>
