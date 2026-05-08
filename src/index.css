@@ -65,9 +65,9 @@ h2::after {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    to right,
-    rgba(0,0,0,0.7),
-    rgba(0,0,0,0.2)
+    to bottom,
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.4)
   );
 }
 
@@ -77,12 +77,16 @@ h2::after {
 }
 
 .hero h1 {
+  color: var(--text-light);
   font-size: 48px;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
+  color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* 🎞 SLIDER DOTS */
