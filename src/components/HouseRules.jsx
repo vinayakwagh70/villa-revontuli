@@ -1,13 +1,21 @@
 export default function HouseRules() {
+  const rules = [
+    "No smoking or drinking inside premises",
+    "No loud music after 10 PM",
+    "Only registered guests allowed",
+    "Respect the property",
+  ];
+
   return (
-    <section>
+    <section id="rules">
       <h2>House Rules</h2>
-      <ul>
-        <li>No smoking or drinking inside premises</li>
-        <li>No loud music after 10 PM</li>
-        <li>Only registered guests allowed</li>
-        <li>Respect the property</li>
-      </ul>
+      <div className="rules-container">
+        <ul>
+          {rules.map((rule, index) => (
+            <li key={index}>{rule}</li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }
