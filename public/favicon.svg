@@ -1,5 +1,16 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M4 18C10 8 16 26 28 13" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M4 14C10 4 16 22 28 9" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
-  <path d="M4 22C10 12 16 30 28 17" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.4" />
+  <defs>
+    <linearGradient id="aurora-green" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+    <linearGradient id="aurora-purple" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <path d="M6 22 Q9 12 11 4" stroke="url(#aurora-green)" stroke-width="3" stroke-linecap="round" />
+  <path d="M14 24 Q16 10 19 6" stroke="url(#aurora-purple)" stroke-width="4" stroke-linecap="round" opacity="0.6" />
+  <path d="M22 22 Q25 14 27 8" stroke="url(#aurora-green)" stroke-width="3" stroke-linecap="round" opacity="0.4" />
+  <path d="M2 28L10 18L18 28H2Z" fill="#b23a2f" opacity="0.5" />
 </svg>

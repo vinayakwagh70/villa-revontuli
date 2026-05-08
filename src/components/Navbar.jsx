@@ -12,12 +12,25 @@ export default function Navbar() {
 
       <div className="navbar-inner">
         <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-          {/* ✨ Shimmering Aurora Icon */}
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '10px' }}>
-            {/* Multi-layered curtains representing the Aurora Borealis */}
-            <path d="M4 18C10 8 16 26 28 13" stroke="#4ade80" strokeWidth="2.5" strokeLinecap="round" />
-            <path d="M4 14C10 4 16 22 28 9" stroke="#2dd4bf" strokeWidth="2.5" strokeLinecap="round" opacity="0.6" />
-            <path d="M4 22C10 12 16 30 28 17" stroke="#a855f7" strokeWidth="2" strokeLinecap="round" opacity="0.4" />
+          {/* 🏔️ Realistic Aurora (Revontuli) Icon */}
+          <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '10px' }}>
+            <defs>
+              <linearGradient id="aurora-gradient" x1="0%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stopColor="#4ade80" stopOpacity="0" />
+                <stop offset="100%" stopColor="#4ade80" stopOpacity="0.8" />
+              </linearGradient>
+              <linearGradient id="purple-gradient" x1="0%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stopColor="#a855f7" stopOpacity="0" />
+                <stop offset="100%" stopColor="#a855f7" stopOpacity="0.5" />
+              </linearGradient>
+            </defs>
+            {/* Aurora Curtains */}
+            <path d="M6 22 Q9 12 11 4" stroke="url(#aurora-gradient)" strokeWidth="3" strokeLinecap="round" />
+            <path d="M14 24 Q16 10 19 6" stroke="url(#purple-gradient)" strokeWidth="4" strokeLinecap="round" />
+            <path d="M22 22 Q25 14 27 8" stroke="url(#aurora-gradient)" strokeWidth="3" strokeLinecap="round" opacity="0.6" />
+            {/* Mountain Silhouette for context */}
+            <path d="M2 28L10 18L18 28H2Z" fill="white" opacity="0.3" />
+            <path d="M14 28L22 20L30 28H14Z" fill="white" opacity="0.2" />
           </svg>
           <span>Villa Revontuli</span>
         </div>
