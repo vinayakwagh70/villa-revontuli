@@ -25,8 +25,8 @@ export default function Hero() {
       }}
     >
       <div className="hero-content">
-        <h1>Villa in Mahabaleshwar – Villa Revontuli</h1>
-        <p>Peaceful private villa stay Mahabaleshwar</p>
+        <h1>Villa Revontuli</h1>
+        <p>Peaceful private villa stay in Mahabaleshwar</p>
 
         <a
           className="button"
