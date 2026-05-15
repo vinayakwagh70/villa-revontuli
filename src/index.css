@@ -123,11 +123,14 @@ h2::after {
   padding: 12px 20px;
   border-radius: 8px;
   transition: 0.3s;
+  border: none;
+  font-family: inherit;
   text-decoration: none;
   display: inline-block;
   margin-top: 20px;
   font-weight: 600;
   letter-spacing: 0.5px;
+  cursor: pointer;
 }
 
 .button:hover {
